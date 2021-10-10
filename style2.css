@@ -1,0 +1,83 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Убираем внутренние отступы */
+ul[class],
+ol[class] {
+  padding: 0;
+}
+
+/* Убираем внешние отступы */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+body{
+	width: 100vw;
+	height: 100vh;
+    margin: 0;
+    background: url(pexels-flora-westbrook-4191623.jpg) no-repeat;
+    background-size: 100% auto;
+}
+
+.menu{
+		display: flex;
+	justify-content: space-between;
+	width: 70%;
+	margin-left: 13.5%;
+	margin-right: 13.5%;	margin-top: 9%;
+
+}
+
+.sp1{
+	font-family: Satisfy;
+font-style: normal;
+font-weight: normal;
+font-size: 48px;
+line-height: 69px;
+background-color: rgba(255, 255, 255, 0.366);
+ border-radius: 40px;
+ width: 500px;
+
+color: #FFFFFF;
+margin-right: 20%;
+}
+.sp2{
+	font-family: Satisfy;
+font-style: normal;
+font-weight: normal;
+font-size: 48px;
+line-height: 69px;
+background-color: rgba(255, 255, 255, 0.366);
+ border-radius: 40px;
+ width: 500px;
+
+
+color: #FFFFFF;
+}
+h1{
+	
+font-family: Sail;
+font-style: normal;
+font-weight: normal;
+font-size: 96px;
+line-height: 111px;
+text-align: center;
+color: #FFFFFF;
+}
