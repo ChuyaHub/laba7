@@ -1,0 +1,130 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Убираем внутренние отступы */
+ul[class],
+ol[class] {
+  padding: 0;
+}
+
+/* Убираем внешние отступы */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+
+/* Выставляем основные настройки по-умолчанию для body */
+body {
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+ background-color: rgba(255, 255, 255, 0.466);
+  
+}
+.sh_hear {
+    width: 100%;
+    height: 25%;
+}
+.list {
+  margin: 20px;
+}
+.food_list {
+  list-style: none;
+  margin: 0 20px;
+  
+}
+.food_list li {
+  margin: 10px 0;
+  position: relative;
+  }
+  .food_list a {
+    width: 100%;
+    color: #2d4d5c;
+    text-decoration: none;
+    border-left: 6px solid #88ac85;
+    display: block;
+    padding-left: 25px;
+    height: 44px;
+    line-height: 44px;
+    font-size: 20px;
+    position: relative;
+    transition: 0.3s linear;
+    }
+    .food_list a:before {
+      content: "";
+      width: 6px;
+      height: 70%;
+      background: #ef5118;
+      position: absolute;
+      top: 15%;
+      left: -12px;
+      }
+      .food_list li:before {
+        content: "";
+        width: 6px;
+        height: 40%;
+        background: #ffb426;
+        position: absolute;
+        top: 30%;
+        left: -12px;
+        }
+        .food_list a:hover {
+          background: #88ac85;
+          color: #fff;
+        }
+.text1 {
+  font-size: 20px;
+  font-weight: 500;
+}
+.circle {
+  
+  position: absolute;
+}
+.list_img {
+  width: 50px;
+  position: relative;
+}
+.me_las {
+  width: 100%;
+}
+.footer {
+ /*#f3dab2*/
+ 
+  position: relative;
+}
+.footer_text {
+ font-size: 90px;
+ margin-top: -30px;
+ font-weight: 500;
+text-align: center;
+color: #fff;
+font-family: Sail;
+} /**/
+
+.ph{
+  
+}
+.ph_foto {
+    width: 100%;
+    height: 100%;
+
+  /*  max-width: 30%;
+  max-height: 30%;*/
+}
